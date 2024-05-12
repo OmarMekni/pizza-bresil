@@ -9,17 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "canvas-confetti": "^1.9.3",
     "clsx": "^2.1.1",
     "firebase": "^10.11.1",
     "next": "^14.2.3",
     "react": "^18",
+    "react-canvas-confetti": "^2.0.7",
     "react-dom": "^18",
-    "react-icons": "^5.1.0"
+    "react-hook-form": "^7.51.4",
+    "react-icons": "^5.1.0",
+    "react-toastify": "^10.0.5",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/uuid": "^9.0.8",
     "autoprefixer": "^10.4.19",
     "eslint": "^8",
     "eslint-config-next": "14.2.3",

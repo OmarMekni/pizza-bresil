@@ -7,10 +7,14 @@ module.exports = {
     colors: {
       white: "#ffffff",
       primary: {
-        200: "#efeffc",
-        300: "#cfd0f6",
-        400: "#7f81e8",
-        DEFAULT: "#5F62E2",
+        // 200: "#efeffc",
+        200: "#DCFADF",
+        300: "#5AE468",
+        // 300: "#cfd0f6",
+        400: "#5FE284",
+        // 400: "#7f81e8",
+        // DEFAULT: "#5F62E2",
+        DEFAULT: "#14D928",
         600: "#5658CB",
       },
       secondary: {
@@ -21,14 +25,41 @@ module.exports = {
         600: "#26a482",
       },
       gray: {
-        400: "#f2f2f2",
+        300: "#fafafa",
+        // 400: "#f2f2f2",
+        400: "#E7E7E7",
         500: "#e5e5e5",
         600: "#b2b2b2",
         700: "#808080",
         800: "#333333",
         DEFAULT: "#1D1D1D",
       },
+      alert: {
+        danger: "#FF4E4E",
+        success: "#90DA1A",
+        warning: "#FEB72F",
 
+      },
+      blue: {
+        100: "#ebf2f9",
+        200: "#c4daed",
+        300: "#9ec2e2",
+        // 400: "#f2f2f2",
+        500: "#8ab5dc",
+        600: "#77a9d7",
+        700: "#639dd1",
+        800: "#5091cb",
+        DEFAULT: "#3d85c6",
+      },
+
+      heavenly: {
+        100: "#72d5ea",
+        200: "#5ecfe7",
+        300: "#4ac9e4",
+        400: "#36C3E1",
+        DEFAULT: "#3d85c6",
+        light: "#9ae1f0",
+      },
     },
     //TUTTI GLI STILI DI TEXT CHE UTILIZZERO NELLA MIA APPLICAZIONE
     fontSize: {

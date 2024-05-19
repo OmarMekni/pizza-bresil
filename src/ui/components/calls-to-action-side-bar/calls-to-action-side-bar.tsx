@@ -32,7 +32,7 @@ export const CallsToActionSideBar = () => {
         />
       </div>
 
-      <div className="relative flex flex-col justify-center  px-8 py-5  rounded pb-44 bg-secondary-300">
+      <div className="relative flex flex-col justify-center px-8 py-5  rounded pb-44 bg-secondary-300">
         <Typography
           variant="h5"
           theme="black"
@@ -44,7 +44,7 @@ export const CallsToActionSideBar = () => {
         <div className="flex justify-center pt-5 pb-20">
           <Button
             variant="gray-800"
-            baseUrl="https://www.facebook.com/pizzabresil"
+            baseUrl="https://www.facebook.com/pizzabresil/"
             linkType="external"
           >
             Rejoindre
@@ -55,7 +55,7 @@ export const CallsToActionSideBar = () => {
           height={201}
           src="/assets/svg/chef-face.svg"
           alt="Description chef"
-          className="absolute pt-80"
+          className="absolute top-[calc(100%-201px)] left-1/2 transform -translate-x-28"
         />
       </div>
     </>

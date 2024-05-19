@@ -2,10 +2,11 @@ import { SessionStatusType } from "@/types/sessionStatusType";
 import { Breadcrumbs } from "../breadcrumbs/breadcrumbs";
 import { Container } from "../container/container";
 import { Footer } from "../navigation/footer";
-import { Navigation } from "../navigation/navigation";
+// import { Navigation } from "../navigation/navigation";
 import { UserAccountNavigation } from "../navigation/user-account-navigation";
 import { Session } from "../session/session";
 import { CallsToActionSideBar } from "../calls-to-action-side-bar/calls-to-action-side-bar";
+import { Nav } from "../navigation/nav";
 
 interface Props {
   children: React.ReactNode;
@@ -39,7 +40,8 @@ export const Layout = ({
   }
   return (
     <Session sessionStatus={sessionStatus}>
-      <Navigation />
+      {/* <Navigation /> */}
+      <Nav/>
       {isDisplayBreadCrumbs && <Breadcrumbs />}
       {view}
       <Footer />

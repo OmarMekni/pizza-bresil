@@ -11,7 +11,7 @@ interface Props {}
 
 export const Navigation = ({}: Props) => {
   const { authUser } = useAuth();
-  console.log("authUser", authUser);
+  // console.log("authUser", authUser);
 
   const authentificationSystem = (
     <div className="flex items-center gap-2">
@@ -47,10 +47,13 @@ export const Navigation = ({}: Props) => {
             component="div"
             className="flex items-center gap-7"
           >
-            {/* <ActiveLink href="/design-system">Design system</ActiveLink>
+            {/* 
+            <ActiveLink href="/design-system">Design system</ActiveLink>
             <ActiveLink href="/home">Home</ActiveLink>
             <ActiveLink href="/menu">Menu</ActiveLink>
             <ActiveLink href="/offres">Offres</ActiveLink> */}
+
+            {/* <ActiveLink href="/design-system">Design system</ActiveLink> */}
 
             {/* <Link
               target="_blank"

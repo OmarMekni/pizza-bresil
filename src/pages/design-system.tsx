@@ -4,11 +4,17 @@ import { Button } from "@/ui/components/design-system/button/button";
 import { Logo } from "@/ui/components/design-system/logo/logo";
 import { Spinner } from "@/ui/components/design-system/spinner/spinner";
 import { Layout } from "@/ui/components/layout/layout";
+import { Nav } from "@/ui/components/navigation/nav";
+
 import { Seo } from "@/ui/components/seo/seo";
 import { RiUser6Fill } from "react-icons/ri";
 
 export default function DesignSystem() {
   return (
+    // <>
+    //   <Nav/>
+    // </>
+
     <>
       <Seo title="Design System" description="Description..." />
 
